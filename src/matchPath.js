@@ -9,7 +9,7 @@ const compilePath = (path) => {
     return { re, keys }
 }
 
-const matchPath = (pathName, options = {}, parent) => {
+const matchPath = (pathName, options = {}) => {
     const { path } = options;
 
     const { re, keys } = compilePath(path)

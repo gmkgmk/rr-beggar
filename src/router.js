@@ -2,21 +2,6 @@ import React, { Component } from 'react';
 import RouterContext from './store'
 
 export default class Router extends Component {
-    componentWillMount() {
-        const {  history } = this.props;
-        this.unlisten = history.listen(() => {
-            this.setState({
-                match: this.computeMatch(history.location.pathname)
-            });
-        });
-    }
-    computeMatch(pathname) {
-        return {
-            path: "/",
-            url: "/",
-            params: {},
-        };
-    }
     render() {
         const { children } = this.props
         return children ?

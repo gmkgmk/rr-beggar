@@ -6,6 +6,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
     "redux-saga": "^0.16.0",
     "resolve-pathname": "^2.2.0"
   },
@@ -16,6 +17,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "history": "^4.7.2"
+    "history": "^4.7.2",
+    "react-redux": "^5.0.7"
   }
 }

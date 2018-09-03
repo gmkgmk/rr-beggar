@@ -4,7 +4,6 @@ import BrowserHistory from './BrowserHistory'
 import Switch from './switch'
 import Route from './route'
 class App extends Component {
-
     render() {
         return (
             <BrowserHistory className="App">
